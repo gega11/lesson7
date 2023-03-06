@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    background-color: grey;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+    color: white;
+    overflow: auto;
+    padding: 25px 25px 25px;
+}
+
+header a:hover{
+    color: darkred;
+}
+.leftmenu a,
+.leftnav a{
+        transition-property: all;
+        transition-delay: 0.1s;
+        transition-duration: 2s;
+        transition-timing-function: ease;
+        color: white;
+        font-size: larger;
+        position: relative;
+   
+}
+
+.leftnav,
+.leftnav ul,
+.leftnav li{
+    display: inline-block;
+}
+
+.leftmenu ul li {
+    margin: 30px;
+}
+
+.rightmenu a,
+.rightnav a{
+    float: right;
+    transition-property: all;
+    transition-delay: 0.1s;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    color: white;
+    font-size: larger;
+    margin: 30px;
+    margin-top: -50px;
+}
+
+main{
+    padding: 200px 25px;
+    background-color: brown;
+    color: white;
+}
+.descriptionbox{
+    width: 50%;
+}
+.descriptionbox h4{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.descriptionbox h1{
+    font-family: serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin: 0;
+    color: white;
+}
+.descriptionbox h3{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 4;
+    font-size: 25px;
+    margin: 0;
+    color: white;
+}
+
+.descriptionbox p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    font-weight: 100;
+    font-size: 18px;
+    color: white;
+}
+
+.forkids
+.sectioncontainer{
+    max-width: 1200px;
+    width:90%;
+    margin: auto;
+    background-color: brown;
+}
+.can{
+    position: relative;
+    width: 30%;
+  
+}
+.can img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.can p {
+    position: absolute;
+    bottom: 10px;
+    padding: 10px;
+    background-color: rgb(244, 246, 248);
+    width: 50%;
+    left: 50%;
+    transform: translatex(-30%);
+    opacity: 0.7;
+
+}
+
+.container {
+    width: 100%;
+    height: 50px;
+    background-color: brown;
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  .car img{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: car-animation 4s linear infinite;
+  }
+  
+  @keyframes car-animation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+
+
+  footer {
+    background-color: black;
+    color: #666;
+    text-align: left;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+  }
+
+  footer p {
+    color: white;
+    margin: 25px;
+    padding: 0;
+  }
+.ftcontainer img{
+    position: relative;
+    width: 25px;
+    height:25px;
+    color: white;
+}
+.ftcontainer a{
+    position: absolute;
+    margin: 5px;
+    color: white;
+}
